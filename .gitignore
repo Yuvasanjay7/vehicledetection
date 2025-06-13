@@ -1,0 +1,93 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+.history/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (large files)
+models/*.pt
+models/*.onnx
+models/*.pth
+models/*.bin
+models/*.pb
+
+# Large video/data files
+*.mp4
+*.avi
+*.mov
+*.mkv
+traffic.mp4
+data/output_video.mp4
+data/sample_video.mp4
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Result files
+results/
+output/
+*.jpg
+*.png
+*.gif
+
+# Allow placeholder directories
+!models/
+!data/
+!src/
+!requirements.txt
+!README.md
+# Place empty .gitkeep files in empty directories you want to preserve
+!models/.gitkeep
+!data/.gitkeep
