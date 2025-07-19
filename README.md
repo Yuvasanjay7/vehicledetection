@@ -23,7 +23,7 @@ A computer vision system that detects and recognizes vehicles in videos using YO
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/meankitdas/vehicle-detection.git
+   git clone https://github.com/yuvasanjay7/vehicle-detection.git
    cd vehicle-detection
    ```
 
